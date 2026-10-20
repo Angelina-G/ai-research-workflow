@@ -28,6 +28,16 @@
 | [lainshao/modern-ppt](https://github.com/lainshao/modern-ppt) | HTML/PPT 页面模板参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
 | [brycewang-stanford/many-ppt-skills](https://github.com/brycewang-stanford/many-ppt-skills) | PPT Skill 选择参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
 | [gnipbao/knowledge-cat-ppt-skill](https://github.com/gnipbao/knowledge-cat-ppt-skill) | 演示稿故事线与视觉检查 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [anthropics/skills](https://github.com/anthropics/skills) | Claude/前端与通用 Skill 参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | UI/UX 设计 Skill 参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [obra/superpowers](https://github.com/obra/superpowers) | 任务拆解与工程协作 Skill 参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 网页视觉打磨参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 前端与通用 Agent Skill 参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [sunbigfly/ppt-agent-skills](https://github.com/sunbigfly/ppt-agent-skills) | PPT 制作 Skill 参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [korbinjoe/slides-skill](https://github.com/korbinjoe/slides-skill) | 演示文稿 Skill 参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [Rimagination/scansci-pdf](https://github.com/Rimagination/scansci-pdf) | 扫描论文 PDF 处理参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | 自动化科研流程参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
+| [yjhd91/academic-literature-skills](https://github.com/yjhd91/academic-literature-skills) | 学术文献处理参考 | 版权归原作者和贡献者；遵循仓库 LICENSE |
 | [blader/humanizer](https://github.com/blader/humanizer) | 英文结构化 AI 表达检查；由 `deai-academic-writing` 调用 | 版权归 Siqi Chen 及贡献者；上游声明 MIT License |
 | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 中文表达自然化与事实保护；由 `deai-academic-writing` 调用 | 版权归上游作者及贡献者；上游 LICENSE 为准 |
 

@@ -132,6 +132,10 @@ paper-talk
 
 [references/phase-routing.md](references/phase-routing.md)
 
+完整的已安装扩展目录、使用时机和课程截图中的未核验名称见：
+
+[references/skill-catalog.md](references/skill-catalog.md)
+
 简化判断如下：
 
 | 任务阶段 | 重点 Skill | 产物 |
@@ -158,6 +162,7 @@ paper-talk
 ```text
 SKILL.md                       Codex 入口指令
 references/phase-routing.md   中文阶段路由与 Skill 速查
+references/skill-catalog.md   已安装扩展、触发条件和未核验名称
 README.md                     安装、示例和边界
 THIRD_PARTY_NOTICES.md        引用项目、作者与版权边界
 LICENSE                       本仓库许可证

@@ -122,3 +122,25 @@ MCP 是软件连接工具，并非 Skill。只有连接可用且得到授权时�
 ## 查阅与执行约定
 
 每次只启动本次任务涉及的阶段，但该阶段的适用链要逐项执行。若用户已经提供经核验的检索清单、实验结果或论文全文，可以从相应产物往下走，并注明跳过的上游步骤。工具或数据源不可用时标记“未运行/受限”，不能写成“已调用”。截图中的 `superpowers`、`ui-ux-pro-max-skill`、`research-radar-paper-vault` 等仓库名尚不是本机确认的同名独立 Skill；选择替代 Skill 时说明替代理由。
+
+## 7. 扩展模块：满足触发条件时自动接入
+
+前六节是课堂和日常科研最常用的阶段链。下面这些 Skill 已安装，但不默认全部运行；母 Skill 会根据任务中的明确对象、数据类型、交付格式和质量要求自动加入对应分支。完整中文用法见 [skill-catalog.md](skill-catalog.md)。
+
+| 触发场景 | 自动加入的扩展链 | 典型产物 |
+|---|---|---|
+| 研究项目需要状态管理、严谨性审查或跨阶段编排 | `ara-research-manager` → `ara-rigor-reviewer` → `research-pipeline` | 任务树、风险清单、阶段状态和复核记录 |
+| 研究方向需要跨学科发散或理论反思 | `creative-thinking-for-research`、`scientific-brainstorming`、`scientific-critical-thinking` | 候选问题、替代解释、反例和验证路径 |
+| 综述需要补充搜索、专题编码或报告化输出 | `bgpt-paper-search`、`comm-lit-review`、`research-lit`、`research-lookup`、`research-review` | 候选文献、编码表、综述审查意见 |
+| 论文写作需要课程论文、基金或市场报告结构 | `course-paper-writing`、`research-grants`、`market-research-reports` | 章节大纲、申请书结构或报告正文 |
+| 研究材料需要流水线、迭代和 Wiki 化管理 | `research-refine`、`research-refine-pipeline`、`research-vault-knowledge-maintainer`、`research-wiki` | 迭代记录、知识库维护报告和导航页 |
+| 有数据，需要探索、统计、公式或方法验证 | `exploratory-data-analysis` → `statistical-analysis` → `analytical-method-validation`；需要推导时加 `formula-derivation` | 数据概况、检验结果、方法验证和公式说明 |
+| 机器学习需要消融、队列、运行和监控 | `ablation-planner`、`experiment-queue`、`run-experiment`、`experiment-tracking-swanlab`、`monitor-experiment` | 实验矩阵、运行记录、指标对比和异常报告 |
+| 需要把代码实验接到研究结论或自动迭代 | `experiment-bridge`、`codex-autoresearch` | 可复现实验入口、迭代记录和人工复核点 |
+| 需要科学计算、机制图或高质量可视化 | `scientific-toolkit-skill`、`scientific-visualization`、`scientific-schematics` | 工具选择、机制示意图和可复现图表 |
+| 论文需要图注、图规格、海报或专利转换 | `figure-description`、`figure-spec`、`paper-figure`、`paper-illustration-image2`、`paper-poster`、`paper-poster-html`、`nature-paper-to-patent` | 图注、绘图规格、海报或专利交底结构 |
+| 论文需要 QA、Nature 引用/统计/下载流程 | `paper-qa`、`nature-citation`、`nature-statistics`、`nature-downloader` | 检查清单、引用格式、统计段落和合规文件记录 |
+| 需要批量处理 Zotero 数据或维护集合 | `zotero-collection-manager`、`pyzotero` | 集合变更记录、批处理结果和回滚信息 |
+| 需要复杂 PPT、海报或 Markdown 图示 | `ppt-agent`、`pptx`、`pptx-posters`、`many-ppt-skills`、`scientific-slides`、`slides-polish`、`markdown-mermaid-writing` | PPTX、海报、逐页讲稿、图示和视觉检查报告 |
+
+**自动选择规则：**用户说“做文献综述”时运行综述链；用户说“帮我分析 CSV”时运行数据链；用户说“设计消融实验”时加入消融链；用户说“做成 PPT/海报”时加入汇报链。没有命中触发条件的扩展只列为“相关但未调用”，不主动消耗上下文。

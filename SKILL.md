@@ -9,7 +9,7 @@ Use this workflow when a task involves academic research, papers, literature, ex
 
 ## 中文速查入口
 
-先看[阶段与 Skill 速查表](references/phase-routing.md)：按阶段列出基础链、按需分支，以及每个已安装 Skill 的使用时机和具体用法。用户已有可核验的上游成果时，从对应阶段继续；只把实际读取并应用过的 Skill 报告为“已调用”。
+先看[阶段与 Skill 速查表](references/phase-routing.md)，再看[完整 Skill 目录](references/skill-catalog.md)：前者决定阶段链，后者索引已安装扩展、触发条件和课程中仅作参考的名称。用户已有可核验的上游成果时，从对应阶段继续；只把实际读取并应用过的 Skill 报告为“已调用”。
 
 ## Core principle
 
@@ -71,7 +71,7 @@ Activate this coordinator for phrases such as: `AI科研工作流`, `AI科研流
 ### Stage selection
 
 1. Identify the requested stages: framing, search, verification, Zotero archive, Obsidian notes, evidence synthesis, experiment/data, writing, figures, presentation, or tracking.
-2. Select the relevant installed Skills from the routing map above; read each selected `SKILL.md` before applying it.
+2. Consult `references/skill-catalog.md`, select the relevant installed Skills from the routing map, and read each selected `SKILL.md` before applying it. Basic chains run when their stage is active; optional modules run only when their trigger matches.
 3. Pass forward concrete artifacts: verified DOI/URL, Zotero item key, note path, data path, figure source, draft section, or slide outline.
 4. Return to this coordinator after each sub-Skill and check source traceability, claim support, and the next dependency.
 5. If a requested module is missing or its MCP is unavailable, continue with the closest installed module and state the limitation.

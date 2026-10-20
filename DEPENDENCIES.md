@@ -96,3 +96,21 @@
 
 Zotero MCP、Obsidian MCP、数据库官网、Crossref、OpenAlex、arXiv、NotebookLM、Figma 和 MATLAB 都是外部工具或平台，不包含在本仓库中。它们的账号、网络、订阅、版本和许可证独立于本 Skill。
 
+## 已安装扩展模块索引
+
+下表补上主流程矩阵之外的本机已安装扩展。它们属于“按触发条件自动选择”，不是每次科研任务都全部运行；每个项目仍需先读取自己的 `SKILL.md`。
+
+| 类别 | 已安装扩展 |
+|---|---|
+| 研究管理与综述 | `ara-research-manager`、`ara-rigor-reviewer`、`bgpt-paper-search`、`comm-lit-review`、`course-paper-writing`、`creative-thinking-for-research`、`research-grants`、`market-research-reports`、`scientific-brainstorming`、`scientific-critical-thinking` |
+| 研究流水线与知识库 | `research-pipeline`、`research-refine`、`research-refine-pipeline`、`research-lit`、`research-lookup`、`research-review`、`research-paper-writing`、`research-writing-skill`、`researchwrite`、`research-vault-knowledge-maintainer`、`research-wiki`、`zotero-collection-manager`、`pyzotero` |
+| 实验、数据与统计 | `ablation-planner`、`analytical-method-validation`、`exploratory-data-analysis`、`formula-derivation`、`experiment-bridge`、`experiment-queue`、`experiment-tracking-swanlab`、`monitor-experiment`、`run-experiment`、`statistical-analysis`、`scientific-toolkit-skill`、`scientific-visualization`、`scientific-schematics` |
+| 论文与图表 | `paper-write`、`paper-qa`、`paper-claim-audit`、`paper-figure`、`paper-illustration-image2`、`figure-description`、`figure-spec`、`nature-citation`、`nature-downloader`、`nature-statistics`、`nature-paper-to-patent`、`paper-poster`、`paper-poster-html` |
+| 汇报与交付 | `ppt-agent`、`pptx`、`pptx-posters`、`many-ppt-skills`、`scientific-slides`、`slides-polish`、`markdown-mermaid-writing` |
+
+每个扩展的具体触发条件和中文用法见 [references/skill-catalog.md](references/skill-catalog.md)。
+
+## 课程提及但当前未核验为本机 Skill
+
+`cnki-search`、`wanfang-search`、`pubmed-search`、`googlescholar-search`、`cochrane-search`、`scopus-search`、`sciencedirect-search`、`wos-search`、`research-radar-paper-vault`、`superpowers`、`ui-ux-pro-max-skill` 当前不列为可调用安装项。课程演示可使用对应官网、已安装替代 Skill 或上游仓库；具体替代关系见 [references/skill-catalog.md](references/skill-catalog.md)。
+
